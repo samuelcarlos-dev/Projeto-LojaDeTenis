@@ -62,8 +62,8 @@ Repositório inicial estruturado durante o treinamento de versionamento.
 - O usuário deve conseguir navegar entre todas as páginas.
 - O site deve exibir uma lista de produtos.
 - O usuário deve visualizar informações dos produtos.
-- o usuário deve preencher um formulário de contato.
-- o menu deve estar disponível em todas as páginas
+- O usuário deve preencher um formulário de contato.
+- O menu deve estar disponível em todas as páginas
 
 ## Requisitos Não Funcionais
 - Interface simples e intuitiva.
