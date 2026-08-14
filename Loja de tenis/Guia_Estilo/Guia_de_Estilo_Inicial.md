@@ -14,22 +14,22 @@ A paleta foi definida considerando a técnica 60-30-10, utilizada como referênc
 
 ### Cor dominante — 60%
 
-**Nome:** [PREENCHER]  
-**HEX:** `[PREENCHER]`
+**Nome:** [BRANCO]  
+**HEX:** `[FFFFFF]`
 
 Será utilizada principalmente em áreas de maior dimensão, como fundos e espaços principais da interface.
 
 ### Cor secundária — 30%
 
-**Nome:** [PREENCHER]  
-**HEX:** `[PREENCHER]`
+**Nome:** [CINZA]  
+**HEX:** `[D9D9D9]`
 
 Será utilizada em elementos estruturais e áreas secundárias da interface.
 
 ### Cor de destaque — 10%
 
-**Nome:** [PREENCHER]  
-**HEX:** `[PREENCHER]`
+**Nome:** [PRETO]  
+**HEX:** `[000000]`
 
 Será utilizada principalmente em elementos que precisam chamar a atenção do usuário, como botões, chamadas para ação, destaques e elementos de interação.
 
@@ -39,13 +39,13 @@ Será utilizada principalmente em elementos que precisam chamar a atenção do u
 
 ### Fonte para títulos
 
-**Fonte:** [PREENCHER]
+**Fonte:** [JURA]
 
 A fonte será utilizada em títulos e elementos de maior hierarquia visual.
 
 ### Fonte para textos
 
-**Fonte:** [PREENCHER]
+**Fonte:** [JURA]
 
 A fonte será utilizada em textos corridos, descrições, informações de produtos e demais conteúdos que exigem boa legibilidade.
 
