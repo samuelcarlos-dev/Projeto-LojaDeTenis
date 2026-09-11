@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.secao {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.secao h2 {
+  color: blue;
+  margin-bottom: 15px;
+}
+
+.secao h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.texto-destaque {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.texto {
+  font-family: Arial;
+  margin-top: 15px;
+}
+
+.texto-meta {
+  background-color: rgb(155, 145, 145);
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border: 5px solid black;
+}
