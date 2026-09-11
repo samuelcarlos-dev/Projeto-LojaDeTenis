@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.coluna-principal {
+  float: left;
+  width: 65%;
+  background-color: #f0f8ff;
+  padding: 15px;
+}
+
+.coluna-secundaria {
+  float: right;
+  width: 30%;
+  background-color: #e6f7ff;
+  padding: 15px;
+}
+
+.limpa-flutuacao {
+  clear: both;
+}
+
+.botao-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
