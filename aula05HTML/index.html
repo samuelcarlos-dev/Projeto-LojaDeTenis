@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Y2K — Produtos (Wireframe)</title>
+    <title>Y2K — Home (Wireframe)</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Cabeçalho: logo, busca, carrinho e login -->
     <header class="site-header">
       <button class="icon-btn" aria-label="Buscar">🔍</button>
       <div class="logo">Y2K</div>
@@ -16,30 +17,31 @@
       </div>
     </header>
 
-    <!-- Barra secundária: breadcrumb + filtros da listagem -->
-    <nav class="subnav" aria-label="Navegação da listagem">
-      <a href="index.html">Home</a>
-      <div class="subnav-right">
-        <button>Filter</button>
-        <button>Order</button>
-      </div>
-    </nav>
-
     <main>
-      <!-- Grade de produtos: cada célula é um produto (imagem + valor) -->
-      <section class="product-grid" aria-label="Lista de produtos">
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
-        <div class="placeholder-box">Valor</div>
+      <!-- Seção do carrossel principal -->
+      <section class="carousel-placeholder" aria-label="Carrossel principal">
+        <p>Carrossel</p>
+      </section>
+
+      <!-- Seção de marcas parceiras -->
+      <section class="brands" aria-label="Marcas parceiras">
+        <span class="brand-placeholder">Nike</span>
+        <span class="brand-placeholder">New Balance</span>
+        <span class="brand-placeholder">Adidas</span>
+        <span class="brand-placeholder">Asics</span>
+        <span class="brand-placeholder">Puma</span>
+      </section>
+
+      <!-- Seção de produtos em destaque -->
+      <section class="product-highlights" aria-label="Produtos em destaque">
+        <div class="highlight-card">Tn Air</div>
+        <div class="highlight-card">Air Max</div>
+        <div class="highlight-card">Nike Shox</div>
+        <span class="carousel-arrow">›</span>
       </section>
     </main>
 
+    <!-- Rodapé -->
     <footer class="site-footer">
       <div class="footer-brand">
         <h2>Namedly</h2>
