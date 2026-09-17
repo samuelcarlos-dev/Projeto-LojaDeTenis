@@ -38,17 +38,11 @@ header {
 main {
   width: 100%;
 }
-/* Área de promoções */
 
 .promocao {
-  height: calc(100vh - 60px);
-  background-color: #d9d9d9;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  overflow: hidden;
 }
 
 .promocao img {
