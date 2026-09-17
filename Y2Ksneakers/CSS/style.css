@@ -33,3 +33,30 @@ header {
   text-decoration: none;
   color: black;
 }
+main {
+  width: 100%;
+}
+.promoção {
+  width: 100%;
+  background-image: url("assets/images/Banners/banner_Novidades.png");
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.marcas {
+  padding: 70px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.produtos {
+  padding: 50px 20px;
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  text-align: center;
+}
