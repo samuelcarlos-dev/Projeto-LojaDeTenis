@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: white;
+}
+.pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 80px;
+  height: auto;
+}
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.usuario a {
+  text-decoration: none;
+  color: black;
+}
