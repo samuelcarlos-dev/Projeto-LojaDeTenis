@@ -8,11 +8,11 @@ body {
   font-family: Arial, sans-serif;
 }
 header {
-  height: 60px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 10px 30px;
   background-color: white;
 }
 .pesquisa {
@@ -21,7 +21,7 @@ header {
   gap: 10px;
 }
 .logo img {
-  width: 80px;
+  width: 100px;
   height: auto;
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  gap: 100px;
+  gap: 50px;
 }
 
 .marcas img {
@@ -73,11 +73,11 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: auto;
-  gap: 30px;
+  width: 40px;
+  height: auto;
 }
 footer {
   background-color: #d8d8d8;
-  padding: 50px 20px;
+  padding: 100px 45px;
   text-align: center;
 }
