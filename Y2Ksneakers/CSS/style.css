@@ -90,13 +90,12 @@ footer {
 }
 
 .navegação {
+  position: relative; /* necessário para o absolute funcionar em relação a essa caixa */
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 100%;
   padding: 20px 30px;
-
   background-color: #d8d8d8;
 }
 
@@ -107,6 +106,9 @@ footer {
 }
 
 .navegação div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 50px;
 }
