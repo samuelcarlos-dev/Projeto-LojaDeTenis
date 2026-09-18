@@ -14,27 +14,33 @@ header {
   justify-content: space-between;
   padding: 10px 30px;
   background-color: white;
+  position: relative;
 }
-.pesquisa {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .logo img {
   width: 100px;
   height: auto;
-  display: flex;
-  align-items: center;
 }
 .usuario {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 .usuario a {
   text-decoration: none;
   color: black;
 }
+.carrinho a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
 main {
   width: 100%;
 }
@@ -57,6 +63,7 @@ main {
   align-items: center;
   width: 100%;
   gap: 50px;
+  padding: 35px 0;
 }
 
 .marcas img {
@@ -73,6 +80,7 @@ main {
   width: 33%;
   height: auto;
   display: block;
+  padding: 10px 0;
 }
 
 footer {
