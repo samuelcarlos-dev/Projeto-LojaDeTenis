@@ -70,13 +70,13 @@ main {
   width: 150px;
   height: auto;
 }
-.produtos {
+.sugestões {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
 }
-.produtos img {
+.sugestões img {
   width: 33%;
   height: auto;
   display: block;
