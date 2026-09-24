@@ -1,1 +1,45 @@
+header {
+  background-color: aliceblue;
+}
 
+header nav {
+  background-color: aqua;
+}
+
+header nav ul {
+  list-style-type: none;
+  position: relative;
+  height: 40px;
+  width: 50px;
+}
+
+header nav ul li {
+  position: relative;
+}
+
+main {
+  background-color: gainsboro;
+  padding: 5px;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+
+main table {
+  width: 400px;
+  border: 1px solid;
+  text-align: center;
+}
+
+main table td,
+main table th {
+  border: 1px solid;
+}
+
+main table td img:hover {
+  width: 150px;
+}
