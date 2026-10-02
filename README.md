@@ -203,5 +203,139 @@ Footer
 | Dia 7 | Documentação e fechamento | README, EAP, cronograma e organização do repositório |
 | Próxima etapa | Implementação Front-End | Codificação HTML, CSS e JavaScript |
 
-Markdown
-# Projeto Nova-Web - UI/UX Design ## Aula 09: UX de Tabelas de Dados e Telas de Perfil ### 1. Pesquisa Teórica - UX para Tabelas Corporativas - **Alinhamento de Dados:**    - Textos devem ser alinhados à *esquerda*.   - Números e valores monetários devem ser alinhados à *direita*.   - Status e ações rápidas podem ser centralizados. - **Filtros e Busca:**   - O campo de pesquisa principal deve ficar posicionado no topo superior esquerdo ou direito acima da tabela para rápido acesso visual.   - Filtros avançados devem ser agrupados ou dispostos em menus suspensos (dropdowns) para economizar espaço de tela. - **Hierarquia Visual:**   - Utilização de cabeçalhos fixos (*sticky header*) para tabelas extensas.   - Alternância de cores em linhas (zebra striping) ou bordas sutis para facilitar a leitura horizontal. ### 2. Especificação do Protótipo (Figma) - **Link do Projeto no Figma:** [Cole o link do seu projeto aqui] - **Telas Desenvolvidas:**   1. *Perfil de Usuário:* Exibição de avatar, dados pessoais, formulário de edição e nível de permissão.   2. *Área de Consulta (Tabela):* Lista de usuários com busca, ordenação, paginação e ações (Editar/Excluir).
+# Projeto Nova-Web - Especificações de UI/UX (Tela de Login)
+
+## 1. Conceitos de Usabilidade em Formulários
+
+### Labels vs. Placeholders
+
+A **label** identifica permanentemente o que deve ser preenchido no campo. Ela continua visível mesmo depois que o usuário começa a digitar.
+
+O **placeholder** é um texto auxiliar apresentado dentro do campo antes do preenchimento. Ele desaparece quando o usuário começa a digitar.
+
+Por isso, o placeholder não deve substituir a label. Utilizar apenas o placeholder pode dificultar a identificação do campo depois que ele é preenchido, além de prejudicar a compreensão da interface e a acessibilidade.
+
+### Hierarquia Visual
+
+O **Primary Button** representa a ação principal da tela e deve possuir maior destaque visual. Na tela de login, o botão **"Entrar"** será utilizado como ação principal.
+
+O **Secondary Button** ou ações secundárias possuem menor destaque visual, pois não representam o objetivo principal da tela. Exemplos são **"Criar Conta"** e **"Esqueci minha senha"**.
+
+Essa diferenciação permite que o usuário identifique rapidamente qual ação deve realizar.
+
+## 2. Estados de Validação dos Campos de Entrada
+
+### Default (Padrão)
+
+O campo apresenta uma borda neutra, fundo adequado e label legível. Esse é o estado normal antes de qualquer interação.
+
+### Focus (Foco)
+
+Quando o usuário seleciona o campo, ele recebe um destaque visual, como alteração na cor da borda ou utilização de um anel de foco. Isso permite identificar claramente qual campo está ativo.
+
+### Error (Erro)
+
+O campo apresenta uma borda em tom vermelho e uma mensagem explicativa abaixo do campo. A mensagem deve informar de forma clara o problema encontrado.
+
+**Exemplo:**
+
+> E-mail ou senha inválidos.
+
+### Success (Sucesso)
+
+O campo apresenta um indicador visual de que o preenchimento foi realizado corretamente. Esse indicador pode utilizar uma alteração visual na borda ou um ícone de confirmação.
+
+### Disabled (Desabilitado)
+
+O campo ou botão apresenta contraste reduzido para indicar que está temporariamente indisponível para interação.
+
+## 3. Padrões de Acessibilidade
+
+Os textos e elementos da interface devem apresentar contraste adequado para facilitar a leitura.
+
+A interface também deve fornecer feedback claro para tecnologias assistivas, como leitores de tela, e permitir navegação utilizando a tecla **Tab**.
+
+Os campos devem possuir identificação clara e os estados de erro devem apresentar mensagens compreensíveis.
+
+## 4. Especificação da Tela de Login
+
+A tela de login será composta por:
+
+* Título ou logotipo da aplicação;
+* Campo de e-mail/usuário;
+* Campo de senha;
+* Opção para exibir ou ocultar a senha;
+* Checkbox "Lembrar de mim";
+* Link "Esqueci minha senha";
+* Botão principal "Entrar";
+* Divisor visual;
+* Opção de login social ou link para cadastro.
+
+## 5. Componentes do Design System
+
+### Input
+
+O componente de campo de entrada possuirá as seguintes variantes:
+
+* Default;
+* Focus;
+* Error;
+* Success.
+
+Os estados de erro possuirão mensagem de apoio (*helper text*).
+
+### Button
+
+O componente de botão possuirá dois tipos:
+
+* Primary;
+* Secondary/Outline.
+
+Cada tipo possuirá estados:
+
+* Default;
+* Hover;
+* Disabled.
+
+## 6. Protótipo
+
+O protótipo será composto por uma tela de login normal e uma segunda tela representando o estado de erro de autenticação.
+
+**Exemplo de mensagem:**
+
+> E-mail ou senha inválidos.
+
+A interação entre as telas será configurada utilizando a aba **Prototype** do Figma.
+
+# Projeto Nova-Web - UI/UX Design
+
+## Aula 09: UX de Tabelas de Dados e Telas de Perfil
+
+### 1. Pesquisa Teórica - UX para Tabelas Corporativas
+
+#### Alinhamento de Dados
+
+- **Textos** devem ser alinhados à *esquerda*.
+- **Números e valores monetários** devem ser alinhados à *direita*.
+- **Status e ações rápidas** podem ser centralizados.
+
+#### Filtros e Busca
+
+- O campo de pesquisa principal deve ficar posicionado no **topo superior esquerdo ou direito**, acima da tabela, para rápido acesso visual.
+- Filtros avançados devem ser agrupados ou dispostos em menus suspensos (*dropdowns*) para economizar espaço de tela.
+
+#### Hierarquia Visual
+
+- Utilização de **cabeçalhos fixos (*sticky header*)** para tabelas extensas.
+- Alternância de cores em linhas (*zebra striping*) ou bordas sutis para facilitar a leitura horizontal.
+
+---
+
+### 2. Especificação do Protótipo (Figma)
+
+- **Link do Projeto no Figma:** [Cole o link do seu projeto aqui]
+
+#### Telas Desenvolvidas
+
+1. **Perfil de Usuário:** Exibição de avatar, dados pessoais, formulário de edição e nível de permissão.
+2. **Área de Consulta (Tabela):** Lista de usuários com busca, ordenação, paginação e ações (**Editar/Excluir**).
