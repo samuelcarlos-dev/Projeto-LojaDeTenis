@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de perfil</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo ao Perfil</h1>
+    </header>
+    <main>
+      <form class="form">
+        <div
+          class="alert alert-info"
+          role="alert"
+          id="mensagem"
+          style="display: none"
+        ></div>
+        <div>
+          <img
+            src="../Tabelas/image/Aluno1_image.webp"
+            alt="Foto de perfil"
+            width="150"
+            onmouseover="console.log('Mouse sobre a imagem')"
+          />
+        </div>
+        <div class="form-group">
+          <label for="nome" class="form-label">Nome:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            name="nome"
+            value="Seu nome"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="cpf" class="form-label">CPF:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cpf"
+            name="cpf"
+            value="Seu CPF"
+            onblur="validaCPF()"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="nascimento" class="form-label">Nascimento:</label>
+          <input
+            type="date"
+            class="form-control"
+            id="nascimento"
+            name="nascimento"
+            value="aaaa-mm-dd"
+          />
+        </div>
+        <div class="form-group">
+          <button type="button" onclick="mensagem()" class="btn btn-primary">
+            Salvar
+          </button>
+        </div>
+      </form>
+    </main>
+    <script type="text/javascript">
+      function mensagem() {
+        const msg = document.querySelector("#mensagem");
+        msg.style.display = "block";
+        msg.textContent = "Perfil atualizado com sucesso!";
+      }
+      function validaCPF() {
+        const cpf = document.querySelector("#cpf").value;
+        console.log(cpf);
+        if (cpf.lenght !== 11) {
+          const msg = document.querySelector("#mensagem");
+          msg.style.display = "block";
+          msg.textContent = "CPF inválido. Deve conter 11 dígitos.";
+        }
+      }
+    </script>
+  </body>
+</html>
