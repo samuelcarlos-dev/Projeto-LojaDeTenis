@@ -1,0 +1,17 @@
+input:focus {
+    outline: 2px solid blue;
+    border-color: blue;
+}
+
+input:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
