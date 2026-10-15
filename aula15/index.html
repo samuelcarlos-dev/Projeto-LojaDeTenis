@@ -1,0 +1,59 @@
+
+<!--
+Descricao: Exercícios da Aula 15 - JavaScript aplicado a Formulários
+nome_arquivo: index.html
+nome_exercicio: Atividade 15 - JavaScript aplicado a Formulários
+nome_aluno: Samuel Carlos Silva de Jesus
+email_aluno: samuel.jesus5@portalsesisp.org.br
+turma: TDE-1BAA-26
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+
+    <main>
+        <form class="form" onsubmit="cadastrar(event)">
+
+            <div id="mensagem"></div>
+
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"
+                    placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf"
+                    placeholder="Digite seu CPF" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento"
+                    name="nascimento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Digite seu e-mail" required>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
