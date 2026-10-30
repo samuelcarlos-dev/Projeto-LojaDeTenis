@@ -1,0 +1,44 @@
+CHECKLIST DE ATIVIDADES – SA 02
+
+Aluno: Samuel Carlos Silva de Jesus
+Turma: TDE-1BAA-26
+Data: 22/10/2026
+
+**1. Y2K SNEAKERS**
+
+- Identidade visual: 90%. Ajustes finais – 30 min.
+- Página inicial: 95%. Revisar links – 1h.
+- Página de produtos: 90%. Ajustar imagens – 1h30.
+- Navegação: 90%. Testar links – 30 min.
+- Detalhes do produto: 0%. Criar página – 4h.
+
+**2. SISTEMA ADMINISTRATIVO**
+
+- Formulário de perfil: 100%. Concluído.
+- Formulário CSS: 90%. Testar funções – 30 min.
+- Cadastro JavaScript: 90%. Revisar envio – 30 min.
+- Organização dos arquivos: 50%. Conferir pastas – 1h.
+- Dashboard: 0%. Desenvolver interface – 5h.
+- Integração tabela/formulário: 0%. Implementar – 3h.
+
+**3. PLANEJAMENTO E FIGMA**
+
+- Pesquisa UI/UX: 80%. Revisar – 30 min.
+- Tela de Login: A confirmar – 2h.
+- Tela de Perfil: A confirmar – 2h.
+- Tabela de Consulta: A confirmar – 2h.
+- Versões Mobile: A confirmar – 4h.
+- Interações no Figma: A confirmar – 2h.
+- Matriz de recursos e cronograma: A confirmar – 2h.
+- README, imagens e GitHub: A confirmar – 3h.
+
+**4. PRAZO DE ENTREGA**
+
+Prazo proposto: 30/10/2026.
+
+- 22 a 25/10: Revisões e desenvolvimento.
+- 26 a 27/10: Finalização do Figma.
+- 28 a 29/10: Documentação e testes.
+- 30/10: Entrega final no GitHub.
+
+Observação: Os percentuais são estimativas e devem ser conferidos nos arquivos do projeto.
