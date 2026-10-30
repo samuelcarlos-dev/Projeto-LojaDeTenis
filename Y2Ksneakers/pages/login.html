@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Y2k.sneakers</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="voltar">
+        <i class="bi bi-arrow-left"></i>
+      </a>
+      <div class="logo">
+        <img
+          src="../assets/images/Logos/Logo_y2k_png2.0.png"
+          alt="Logo Y2K Sneakers"
+        />
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <section class="col-md-5 login-formulario">
+          <div class="caixa-login">
+            <h2 class="text-center mb-3 mt-3">Login</h2>
+            <form id="form-login" novalidate>
+              <p id="mensagem-login"></p>
+              <div class="mb-3">
+                <label for="usuario" class="form-label">E-mail ou CPF</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="usuario"
+                  name="usuario"
+                  placeholder="Digite seu e-mail ou CPF"
+                  autocomplete="username"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+
+                <div class="input-group">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="senha"
+                    placeholder="Digite sua senha"
+                    autocomplete="current-password"
+                    required
+                  />
+                </div>
+              </div>
+              <p class="recuperar-senha">
+                Esqueceu sua senha? <a href="#">Clique Aqui</a>
+              </p>
+
+              <button type="submit" class="btn btn-primary w-100">
+                Entrar
+              </button>
+              <p id="mensagem-login"></p>
+              <p class="text-center mb-0 mt-0">
+                Não tem uma conta? <a href="#">Cadastre-se</a>
+              </p>
+            </form>
+          </div>
+        </section>
+        <section class="col-md-7 login-imagem">
+          <img src="../assets/images/Banners/Banner_Login.jpg" alt="" />
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../pages/login.js"></script>
+  </body>
+</html>
