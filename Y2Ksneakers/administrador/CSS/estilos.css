@@ -1,0 +1,33 @@
+/* Estrutura administrativa */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.area-admin {
+  min-height: 100vh;
+}
+
+/* Menu lateral */
+
+.menu-admin {
+  width: 280px;
+  min-height: 100vh;
+}
+
+.menu-admin .nav-link {
+  margin-bottom: 8px;
+}
+
+.menu-admin .nav-link:hover:not(.active) {
+  background-color: #40464b;
+}
+
+/* Conteúdo principal */
+
+.area-admin main {
+  min-width: 0;
+  background-color: white;
+}
