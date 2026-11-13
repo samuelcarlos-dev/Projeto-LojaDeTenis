@@ -35,6 +35,15 @@ main {
   background-color: white;
 }
 
+.grafico-dashboard {
+  position: relative;
+  height: 190px;
+}
+
+.grafico-dashboard-maior {
+  height: 245px;
+}
+
 .estoque-imagem-area {
   height: 150px;
 }
