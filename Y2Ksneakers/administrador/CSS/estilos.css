@@ -1,4 +1,3 @@
-/* Estrutura administrativa */
 
 body {
   margin: 0;
@@ -6,11 +5,13 @@ body {
   min-height: 100vh;
 }
 
+main {
+    min-width: 0;
+}
+
 .area-admin {
   min-height: 100vh;
 }
-
-/* Menu lateral */
 
 .menu-admin {
   width: 280px;
@@ -25,9 +26,21 @@ body {
   background-color: #40464b;
 }
 
-/* Conteúdo principal */
-
 .area-admin main {
   min-width: 0;
   background-color: white;
+}
+
+.estoque-imagem-area {
+  height: 150px;
+}
+
+.estoque-imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.estoque-titulo {
+  min-height: 2.4em;
 }
