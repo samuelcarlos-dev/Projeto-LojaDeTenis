@@ -22,14 +22,14 @@
   <body>
     <div class="d-flex area-admin">
       <aside
-        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark min-vh-100"
-        style="width: 170px"
+        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark min-vh-100 menu-admin"
+        style="width: 175px"
       >
         <a
           href="dashboard.html"
-          class="d-flex align-items-center mb-3 .bg-secondary text-white text-decoration-none"
+          class="d-flex align-items-center mb-3 text-white text-decoration-none"
         >
-          <span class="fs-3 ms-2 ">Y2K ADM</span>
+          <span class="fs-3 ms-2">Y2K ADM</span>
         </a>
 
         <hr />
@@ -102,205 +102,267 @@
           <h1 class="fs-3 mb-4">Dashboard</h1>
 
           <div class="row g-3 mb-3">
-
-        <!-- Vendas do mês -->
-        <div class="col-12 col-lg-3">
-            <div class="card h-100">
+            <div class="col-12 col-lg-3">
+              <div class="card h-100">
                 <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-secondary text-dark">
+                    Vendas do mês
+                  </h5>
 
-                    <h5 class="card-title text-secondary text-dark">
-                        Vendas do mês
-                    </h5>
+                  <h3 class="my-3 text-dark">R$ 26.000,00</h3>
 
-                    <h3 class="my-3 text-dark">
-                        R$ 26.000,00
-                    </h3>
-
-                    <p class="text-secondary mt-auto mb-0">
-                        186 vendas no mês
-                    </p>
-
+                  <p class="text-secondary mt-auto mb-0">186 vendas no mês</p>
                 </div>
+              </div>
             </div>
-        </div>
 
-        <div class="col-12 col-lg-9">
-            <div class="card h-100">
+            <div class="col-12 col-lg-9">
+              <div class="card h-100">
                 <div class="card-body">
-                    <h5 class="text-secondary text-dark">
-                        Comparativo de vendas
-                    </h5>
-
+                  <h5 class="text-secondary text-dark">
+                    Comparativo de vendas
+                  </h5>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
 
-</div>
-
-<div class="row g-3 mb-3">
-
-    <div class="col-12 col-lg-5">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="text-secondary text-dark">
-                    Situação dos pedidos
-                </h5>
-
+          <div class="row g-3 mb-3">
+            <div class="col-12 col-lg-5">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="text-secondary text-dark">Situação dos pedidos</h5>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
 
-    <div class="col-12 col-lg-7">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="text-secondary text-dark">
-                    Vendas × Despesas
-                </h5>
+            <div class="col-12 col-lg-7">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="text-secondary text-dark">Vendas × Despesas</h5>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
+          </div>
 
-</div>
-
-    <div class="row g-3 mb-4">
-      <div class="col-12 col-md-6">
-          <div class="card">
-              <div class="card-body py-3">
-
-                  <h5 class="mb-0">
+          <div class="row g-3 mb-4">
+            <div class="col-12 col-md-6">
+              <div class="card">
+                <div class="card-body py-3">
+                  <a
+                    href="AdmProdutos.html"
+                    class="text-dark text-decoration-none mt-auto"
+                  >
+                    <h5 class="mb-0">
                       Produtos cadastrados:
-                      <span class="text-secondary fw-normal">
-                          342
-                      </span>
-                  </h5>
-
+                      <span class="text-secondary fw-normal"> 342 </span>
+                    </h5>
+                  </a>
+                </div>
               </div>
-          </div>
-      </div>
+            </div>
 
-      <div class="col-12 col-md-6">
-          <div class="card">
-              <div class="card-body py-3">
-
-                  <h5 class="mb-0">
+            <div class="col-12 col-md-6">
+              <div class="card">
+                <div class="card-body py-3">
+                  <a
+                    href="clientes.html"
+                    class="text-dark text-decoration-none mt-auto"
+                  >
+                    <h5 class="mb-0">
                       Clientes cadastrados:
-                      <span class="text-secondary fw-normal">
-                          525
-                      </span>
-                  </h5>
-
+                      <span class="text-secondary fw-normal"> 525 </span>
+                    </h5>
+                  </a>
+                </div>
               </div>
+            </div>
           </div>
-      </div>
-
-
-</div>
         </section>
 
-<section class="mb-4">
-
-    <h4 class="mb-3">Controle de estoque</h4>
-    <div class="d-flex gap-3 overflow-auto pb-3">
-
-        <div class="card flex-shrink-0" style="width: 220px;">
-            <div class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0">
-            <img
-                src="../assets/images/Produtos/AirMaxPlus.webp"
-                class="img-fluid estoque-imagem"
-                alt="Nike Air Max Plus"
-            >
-            </div>
-            <div class="card-body d-flex flex-column">
+        <section class="mb-4">
+          <h4 class="mb-3">Controle de estoque</h4>
+          <div class="d-flex gap-3 overflow-auto pb-3">
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/AirMaxPlus.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="Nike Air Max Plus"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
                 <h6 class="card-title estoque-titulo">Nike Air Max Plus</h6>
-                <p class="card-text mb-2">
-                    Peças no estoque: 1
-                </p>
-                <a href="adm-produtos.html" class="text-secondary mt-auto">
-                    Detalhes do produto
+                <p class="card-text mb-2">Peças no estoque: 1</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
                 </a>
+              </div>
             </div>
-        </div>
 
-        <div class="card flex-shrink-0" style="width: 220px;">
-            <div class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0">
-            <img
-                src="../assets/images/Produtos/AsicsGelNYCAzul.webp"
-                class="img-fluid estoque-imagem"
-                alt="ASICS Gel NYC Azul"
-            >
-            </div>
-            <div class="card-body d-flex flex-column">
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/AsicsGelNYCAzul.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="ASICS Gel NYC Azul"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
                 <h6 class="card-title estoque-titulo">ASICS Gel NYC</h6>
-                <p class="card-text mb-2">
-                    Peças no estoque: 2
-                </p>
-                <a href="adm-produtos.html" class="text-secondary mt-auto">
-                    Detalhes do produto
+                <p class="card-text mb-2">Peças no estoque: 2</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
                 </a>
+              </div>
             </div>
-        </div>
 
-        <div class="card flex-shrink-0" style="width: 220px;">
-            <div class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0">
-            <img
-                src="../assets/images/Produtos/NikeP6000.webp"
-                class="img-fluid estoque-imagem"
-                alt="Nike P-6000"
-            >
-            </div>
-            <div class="card-body d-flex flex-column">
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/NikeP6000.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="Nike P-6000"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
                 <h6 class="card-title estoque-titulo">Nike P-6000</h6>
-                <p class="card-text mb-2">
-                    Peças no estoque: 3
-                </p>
-                <a href="adm-produtos.html" class="text-secondary mt-auto">
-                    Detalhes do produto
+                <p class="card-text mb-2">Peças no estoque: 3</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
                 </a>
+              </div>
             </div>
-        </div>
 
-
-        <div class="card flex-shrink-0" style="width: 220px;">
-            <div class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0">
-            <img
-                src="../assets/images/Produtos/NikeShoxTL.webp"
-                class="img-fluid estoque-imagem"
-                alt="Nike Shox TL"
-            >
-            </div>
-            <div class="card-body d-flex flex-column">
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/NikeShoxTL.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="Nike Shox TL"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
                 <h6 class="card-title estoque-titulo">Nike Shox TL</h6>
-                <p class="card-text mb-2">
-                    Peças no estoque: 3
-                </p>
-                <a href="adm-produtos.html" class="text-secondary mt-auto">
-                    Detalhes do produto
+                <p class="card-text mb-2">Peças no estoque: 3</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
                 </a>
+              </div>
             </div>
-        </div>
 
-        <div class="card flex-shrink-0" style="width: 220px;">
-            <div class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0">
-            <img
-                src="../assets/images/Produtos/AirMax95.webp"
-                class="img-fluid estoque-imagem"
-                alt="Nike Shox TL"
-            >
-            </div>
-            <div class="card-body d-flex flex-column">
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/AirMax95.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="Air Max 95"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
                 <h6 class="card-title estoque-titulo">Air Max 95</h6>
-                <p class="card-text mb-2">
-                    Peças no estoque: 7
-                </p>
-                <a href="adm-produtos.html" class="text-secondary mt-auto">
-                    Detalhes do produto
+                <p class="card-text mb-2">Peças no estoque: 4</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
                 </a>
+              </div>
             </div>
-        </div>
 
-    </div>
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/AirMaxDnBranco.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="Air Max Dn Branco"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title estoque-titulo">Air Max Dn Branco</h6>
+                <p class="card-text mb-2">Peças no estoque: 2</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
+                </a>
+              </div>
+            </div>
 
+            <div class="card flex-shrink-0" style="width: 220px">
+              <div
+                class="estoque-imagem-area d-flex align-items-center justify-content-center flex-shrink-0"
+              >
+                <img
+                  src="../assets/images/Produtos/AirMaxPlusLaranja.webp"
+                  class="img-fluid estoque-imagem"
+                  alt="Air Max Plus Laranja"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title estoque-titulo">Air Max Plus Laranja</h6>
+                <p class="card-text mb-2">Peças no estoque: 5</p>
+                <a href="AdmProdutos.html" class="text-secondary mt-auto">
+                  Detalhes do produto
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <section class="mb-4">
+          <h4 class="mb-3">Pedidos</h4>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle text-center">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Cliente</th>
+                  <th>Produtos</th>
+                  <th>Valor</th>
+                  <th>Forma de pagamento</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="text-nowrap">#00001</td>
+                  <td class="text-nowrap">#00035</td>
+                  <td>#00072</td>
+                  <td class="text-nowrap">R$ 899,00</td>
+                  <td>—</td>
+                  <td>Pendente</td>
+                </tr>
+
+                <tr>
+                  <td class="text-nowrap">#00002</td>
+                  <td class="text-nowrap">#00524</td>
+                  <td>#00341 / #00015 / #00195</td>
+                  <td class="text-nowrap">R$ 2.697,00</td>
+                  <td>Boleto</td>
+                  <td>Pago</td>
+                </tr>
+
+                <tr>
+                  <td class="text-nowrap">#00003</td>
+                  <td class="text-nowrap">#00237</td>
+                  <td>#00341 / #00015</td>
+                  <td class="text-nowrap">R$ 2.697,00</td>
+                  <td>Boleto</td>
+                  <td>Enviado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
       </main>
     </div>
