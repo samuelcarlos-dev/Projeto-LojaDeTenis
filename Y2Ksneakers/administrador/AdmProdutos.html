@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../CSS/admin.css" />
   </head>
 
+<!--Sidebar-->
   <body>
     <div class="d-flex area-admin">
       <aside
@@ -72,7 +73,6 @@
           >
             <img
               src="assets/images/FotoUsuario"
-              alt=""
               width="32"
               height="32"
               class="rounded-circle me-2"
@@ -82,6 +82,7 @@
         </div>
       </aside>
 
+<!--Cabeçalho-->
       <main class="flex-grow-1 p-4">
         <header class="d-flex justify-content-between align-items-center mb-4">
           <div>
@@ -101,15 +102,287 @@
         <section>
           <h1 class="fs-3 mb-4">Produtos</h1>
 
-          <p class="text-secondary">
-            Visão geral da administração da Y2K.sneakers.
-          </p>
+<section>
+    <nav aria-label="Navegação de produtos">
+        <ol class="breadcrumb fs-3 mb-4">
+            <li class="breadcrumb-item">
+                    Modelos
+                </a>
+            </li>
 
-          <!-- Os indicadores serão adicionados aqui -->
+            <li class="breadcrumb-item active" aria-current="page">
+                Marcas
+            </li>
+        </ol>
+    </nav>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <button
+        type="button"
+        class="btn btn-outline-dark border-0 fs-3"
+        title="Adicionar produto"
+        aria-label="Adicionar produto"
+    >
+        <i class="bi bi-plus-lg"></i>
+    </button>
+    <div class="input-group" style="max-width: 320px;">
+        <span class="input-group-text bg-white">
+            <i class="bi bi-search"></i>
+        </span>
+        <input
+            type="search"
+            class="form-control"
+            placeholder="Pesquisar produto"
+            aria-label="Pesquisar produto"
+        >
+    </div>
+</div>
+
+
+<!--Tabela-->
+<div class="table-responsive">
+    <table class="table table-striped table-hover align-middle text-center">
+        <thead class="table-secondary">
+            <tr>
+                <th>
+                    <input 
+    class="form-check-input"
+    type="checkbox"
+    id="selecionarTodos"
+    aria-label="Selecionar todos os produtos"
+    >
+                <th>ID</th>
+                <th>Foto</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Estoque</th>
+                <th>Avaliação</th>
+
+                <th colspan="3">
+                    <i class="bi bi-gear fs-4"></i>
+                </th>
+            </tr>
+        </thead>
+
+<!--1-->
+        <tbody>
+            <tr>
+                <td>
+                    <input class="form-check-input checkbox-produto"
+                            type="checkbox"
+                            aria-label="Selecionar produto 00001">
+                </td>
+                <td class="text-nowrap">#00001</td>
+                <td>
+                    <img
+                        src="../assets/images/Produtos/AirMax95.webp"
+                        class="img-fluid"
+                        style="width: 140px; max-width: none;"
+                        alt="Air Max 95 Branco"
+                    >
+                </td>
+                <td>Air Max 95 "Branco"</td>
+                <td class="text-nowrap">R$ 899,00</td>
+                <td>26</td>
+                <td>
+            <div class="avaliacao d-flex justify-content-center gap-1"
+          data-nota="0"
+          aria-label="Avaliação do produto">
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 1 estrela">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 2 estrelas">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 3 estrelas">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 4 estrelas">
+            <i class="bi bi-star"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 5 estrelas">
+            <i class="bi bi-star"></i>
+        </button>
+      </div>
+      </td>
+      
+                <td>
+    <button
+        type="button"
+        class="btn btn-sm btn-fixar"
+        title="Fixar produto"
+        aria-label="Fixar produto"
+        aria-pressed="false"
+        >
+        <i class="bi bi-pin-angle fs-5"></i>
+    </button>
+                </td>
+    <td>
+      <button class="btn btn-sm" type="button"
+      title="Editar produto">
+      <i class="bi bi-pencil fs-5"></i>
+    </button>
+  </td>
+  <td>
+    <button class="btn btn-sm" type="button"
+    title="Excluir produto">
+    <i class="bi bi-trash3-fill fs-5"></i>
+  </button>
+</td>
+</tr>
+<!--2-->
+            <tr>
+                <td>
+                    <input class="form-check-input checkbox-produto"
+                            type="checkbox"
+                            aria-label="Selecionar produto 00002">
+                </td>
+                <td class="text-nowrap">#00002</td>
+                <td>
+                    <img
+                        src="../assets/images/Produtos/AirMaxDnPreto.webp"
+                        class="img-fluid"
+                        style="width: 140px; max-width: none;"
+                        alt="Air Max Dn All Night"
+                    >
+                </td>
+                <td>Air Max Dn "All Night"</td>
+                <td class="text-nowrap">R$ 899,00</td>
+                <td>17</td>
+                <td>
+    <div class="avaliacao d-flex justify-content-center gap-1"
+          data-nota="0"
+          aria-label="Avaliação do produto">
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 1 estrela">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 2 estrelas">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 3 estrelas">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 4 estrelas">
+            <i class="bi bi-star"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 5 estrelas">
+            <i class="bi bi-star"></i>
+        </button>
+    </div>
+</td>
+                <td>
+    <button
+        type="button"
+        class="btn btn-sm btn-fixar"
+        title="Fixar produto"
+        aria-label="Fixar produto"
+        aria-pressed="false"
+        >
+        <i class="bi bi-pin-angle fs-5"></i>
+    </button>
+                </td>
+                <td>
+                    <button class="btn btn-sm" type="button"
+                            title="Editar produto">
+                        <i class="bi bi-pencil fs-5"></i>
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-sm" type="button"
+                            title="Excluir produto">
+                        <i class="bi bi-trash3-fill fs-5"></i>
+                    </button>
+                </td>
+            </tr>
+
+<!--3-->
+            <tr>
+                <td>
+                    <input class="form-check-input checkbox-produto"
+                            type="checkbox"
+                            aria-label="Selecionar produto 00003">
+                </td>
+                <td class="text-nowrap">#00003</td>
+                <td>
+                    <img
+                        src="../assets/images/Produtos/NikeShoxTL.webp"
+                        class="img-fluid"
+                        style="width: 140px; max-width: none;"
+                        alt="Nike Shox TL Black Pure Platinum"
+                    >
+                </td>
+                <td>Nike Shox TL "Black/Pure Platinum"</td>
+                <td class="text-nowrap">R$ 899,00</td>
+                <td>17</td>
+                <td>
+    <div class="avaliacao d-flex justify-content-center gap-1"
+          data-nota="0"
+          aria-label="Avaliação do produto">
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 1 estrela">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 2 estrelas">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 3 estrelas">
+            <i class="bi bi-star-fill"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 4 estrelas">
+            <i class="bi bi-star"></i>
+        </button>
+        <button type="button" class="btn btn-link p-0 text-dark"
+                aria-label="Avaliar com 5 estrelas">
+            <i class="bi bi-star"></i>
+        </button>
+    </div>
+</td>
+                <td>
+    <button
+        type="button"
+        class="btn btn-sm btn-fixar"
+        title="Fixar produto"
+        aria-label="Fixar produto"
+        aria-pressed="false"
+        >
+        <i class="bi bi-pin-angle fs-5"></i>
+    </button>
+              </td>
+                <td>
+                    <button class="btn btn-sm" type="button"
+                            title="Editar produto">
+                        <i class="bi bi-pencil fs-5"></i>
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-sm" type="button"
+                            title="Excluir produto">
+                        <i class="bi bi-trash3-fill fs-5"></i>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
         </section>
       </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript/script.js"></script>
   </body>
 </html>

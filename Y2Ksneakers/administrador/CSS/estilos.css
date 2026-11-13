@@ -48,3 +48,9 @@ main {
 .estoque-titulo {
   min-height: 2.4em;
 }
+
+.tabela-produto-imagem {
+  width: 140px;
+  height: 90px;
+  object-fit: contain;
+}
