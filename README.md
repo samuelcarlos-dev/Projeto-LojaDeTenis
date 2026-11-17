@@ -116,11 +116,11 @@ Os wireframes foram desenvolvidos para representar a estrutura e a hierarquia vi
 
 ### Home
 
-[Visualizar ireframe da Home](/Y2Ksneakers/pages/wireframes/Y2k_Home.png)
+[Visualizar wireframe da Home](/Y2Ksneakers/pages/wireframes/Y2k_Home.png)
 
 ### Produtos
 
-[Visualizar ireframe da página de Produtos](/Y2Ksneakers/pages/wireframes/Y2k_Produtos.png)
+[Visualizar wireframe da página de Produtos](/Y2Ksneakers/pages/wireframes/Y2k_Produtos.png)
 
 ### Detalhes do Produto
 
@@ -151,12 +151,12 @@ Footer
  ├── Redes sociais
  ├── Links
  └── Formas de contato
- ```text
+```
 
 ## EAP
 
 | Código | Etapa | Atividade |
-
+| --- | --- | --- |
 | 1.0 | Planejamento | Definição do projeto |
 | 1.1 | Planejamento | Definição do tema e objetivo |
 | 1.2 | Planejamento | Definição do público-alvo |
@@ -193,7 +193,7 @@ Footer
 ## Cronograma do Projeto
 
 | Etapa | Atividade | Resultado |
-
+| --- | --- | --- |
 | Dia 1 | Planejamento e definição do projeto | Tema, objetivo, público-alvo e escopo |
 | Dia 2 | Levantamento e organização dos requisitos | Requisitos funcionais e não funcionais |
 | Dia 3 | Estruturação da experiência do usuário | Anatomia das páginas e fluxo de navegação |
@@ -203,7 +203,7 @@ Footer
 | Dia 7 | Documentação e fechamento | README, EAP, cronograma e organização do repositório |
 | Próxima etapa | Implementação Front-End | Codificação HTML, CSS e JavaScript |
 
-# Projeto Nova-Web - Especificações de UI/UX (Tela de Login)
+## Especificações de UI/UX da tela de login
 
 ## 1. Conceitos de Usabilidade em Formulários
 
@@ -307,9 +307,7 @@ O protótipo será composto por uma tela de login normal e uma segunda tela repr
 
 A interação entre as telas será configurada utilizando a aba **Prototype** do Figma.
 
-# Projeto Nova-Web - UI/UX Design
-
-## Aula 09: UX de Tabelas de Dados e Telas de Perfil
+## Aula 09 — UX de tabelas e telas de perfil
 
 ### 1. Pesquisa Teórica - UX para Tabelas Corporativas
 
@@ -331,11 +329,51 @@ A interação entre as telas será configurada utilizando a aba **Prototype** do
 
 ---
 
-### 2. Especificação do Protótipo (Figma)
+## SA 02 — Plano de Gestão e Engenharia de Interface
 
-https://www.figma.com/site/dPYQ6JzFp3pYprdS8vu3FX/Y2Ksneakers?node-id=0-1&t=eUbTQxZGFgy3cbtA-1
+A atividade é individual e cobre o planejamento e a prototipagem de três telas do sistema corporativo Y2K Sneakers. O fluxo previsto para avaliação é **Login → Perfil → Área de Consulta**, em desktop e mobile. A tabela de Clientes é a referência para a Área de Consulta.
 
-#### Telas Desenvolvidas
+### Matriz de recursos humanos
 
-1. **Perfil de Usuário:** Exibição de avatar, dados pessoais, formulário de edição e nível de permissão.
-2. **Área de Consulta (Tabela):** Lista de usuários com busca, ordenação, paginação e ações (**Editar/Excluir**).
+Samuel Carlos assume os papéis de UI Designer e desenvolvedor front-end. O instrutor representa o cliente nas etapas de validação previstas abaixo.
+
+| Etapa | Quem prepara | Quem valida e o que verifica | O que o front-end recebe |
+| --- | --- | --- | --- |
+| Login | Samuel Carlos, UI Designer | Instrutor, com foco na identificação dos campos, na ação principal e no feedback de erro | Layouts desktop e mobile e estados do formulário |
+| Perfil | Samuel Carlos, UI Designer | Instrutor, com foco na clareza dos dados cadastrais | Layouts e especificação dos dados exibidos |
+| Consulta | Samuel Carlos, UI Designer | Instrutor, com foco na leitura da tabela e na pesquisa | Layouts e cenários de pesquisa com e sem resultados |
+| Integração e entrega | Samuel Carlos, UI Designer e desenvolvedor front-end | Instrutor, com foco no percurso entre as três telas e na adaptação para celular | Protótipo vinculado ao README e assets preparados |
+
+### Matriz de recursos materiais
+
+| Recurso | Uso planejado |
+| --- | --- |
+| Computador, navegador e conexão à internet | Abrir o editor, testar a prévia em diferentes larguras e acessar o repositório |
+| Figma Sites | Prototipar as telas e conectar os percursos desktop e mobile |
+| Assets em `Y2Ksneakers/assets/images` | Reaproveitar banners, logos e imagens do catálogo. Registrar a origem de imagens externas usadas na entrega |
+| Squoosh | Ferramenta prevista para redimensionar imagens e exportar em WebP. Comparar peso e legibilidade antes de adotar a versão otimizada |
+| VS Code, HTML, CSS, Bootstrap e JavaScript | Implementar a interface a partir dos layouts aprovados |
+| Git e GitHub | Versionar a documentação e os assets e disponibilizar a entrega |
+
+### Cronograma e marcos de entrega
+
+As datas indicam os marcos previstos no plano de aula. A coluna de evidência registra o que foi localizado no repositório, sem atribuir datas de conclusão às telas.
+
+| Referência | Etapa e marco | Responsável | Evidência atual |
+| --- | --- | --- | --- |
+| 24/09/2026 | Definir o escopo, os componentes e os recursos | Samuel Carlos | Escopo e guia de estilo documentados |
+| 25/09/2026 | Entregar o protótipo de **Login**, incluindo o estado de erro | Samuel Carlos, com revisão do instrutor | HTML e imagem da tela disponíveis. Estado de erro no Figma a conferir |
+| 01/10/2026 | Entregar o protótipo de **Perfil**, com os dados cadastrais visíveis | Samuel Carlos, com revisão do instrutor | Há um exercício de Perfil fora da pasta da loja. Tela no protótipo integrado a conferir |
+| 01/10/2026 | Entregar o protótipo da **Área de Consulta**, com pesquisa e filtro visual | Samuel Carlos, com revisão do instrutor | Tabela e campo de pesquisa de Clientes disponíveis no HTML. Interação do filtro no Figma a conferir |
+| 02/10/2026 | Adaptar as três telas para celular e revisar os layouts desktop | Samuel Carlos | Percurso completo nas duas larguras a conferir no Figma |
+| 08/10/2026 | Redimensionar e testar a compressão dos assets antes da entrega para codificação | Samuel Carlos | Há imagens WebP no projeto. A otimização do banner e do logo ainda precisa ser verificada |
+| 09/10/2026 | Integrar a navegação, incorporar o feedback e entregar o plano pelo GitHub | Samuel Carlos, com revisão do instrutor | Repositório e link do editor disponíveis. Link de apresentação e validação final a conferir |
+
+A sequência prevista começa pela interface e suas interações. A revisão mobile-first reserva uma etapa para testar o formulário em uma coluna e a leitura dos dados e da tabela em tela estreita. Os ajustes de desktop vêm na revisão seguinte. Após validar os layouts, a etapa de assets prepara as imagens para a codificação em HTML. Os retornos do instrutor entram no cronograma quando forem recebidos.
+
+### Links do projeto
+
+[Y2Ksneakers no Figma Sites](https://www.figma.com/site/dPYQ6JzFp3pYprdS8vu3FX/Y2Ksneakers?node-id=0-1&t=eUbTQxZGFgy3cbtA-1)
+
+
+Entrega pelo [repositório Projeto-LojaDeTenis](https://github.com/samuelcarlos-dev/Projeto-LojaDeTenis).
