@@ -333,7 +333,7 @@ A interação entre as telas será configurada utilizando a aba **Prototype** do
 
 ### 2. Especificação do Protótipo (Figma)
 
-- **Link do Projeto no Figma:** [Cole o link do seu projeto aqui]
+https://www.figma.com/site/dPYQ6JzFp3pYprdS8vu3FX/Y2Ksneakers?node-id=0-1&t=eUbTQxZGFgy3cbtA-1
 
 #### Telas Desenvolvidas
 
